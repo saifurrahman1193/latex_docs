@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{book}  % Document class for book
+\usepackage[utf8]{inputenc}         % UTF-8 encoding
+\usepackage{amsmath, amssymb}       % Mathematical symbols
+\usepackage{graphicx}               % For including images
+\usepackage{cite}                   % For handling citations
+\usepackage{hyperref}               % For hyperlinks in the document
+\usepackage{lipsum}                 % To generate placeholder text
+\usepackage{geometry}               % Adjust page dimensions
+
+\geometry{
+  a4paper,
+  left=25mm,
+  right=25mm,
+  top=30mm,
+  bottom=30mm,
+}
+
+\title{Forecasting SMS Usage and Balance Availability with Machine Learning}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\frontmatter                       % Pages for title, abstract, etc.
+\maketitle                          % Title page
+
+\chapter*{Preface}                  % Preface chapter without numbering
+\lipsum[1]                          % Placeholder text (replace with actual text)
+
+\tableofcontents                    % Automatically generates a table of contents
+\listoffigures                       % Optional: Generates a list of figures
+\listoftables                        % Optional: Generates a list of tables
+
+\mainmatter                         % Main content starts here
+
+\chapter{Introduction}              % First chapter
+\lipsum[1-4]                        % Replace with your introduction
+
+\chapter{Literature Review}         % Another chapter
+\lipsum[1-3]                        % Replace with your literature review content
+
+\chapter{Methodology}               % Chapter for methodology
+\lipsum[2]                          % Replace with methodology
+
+\chapter{Results and Discussion}    % Chapter for results
+\lipsum[3]                          % Replace with actual content
+
+\chapter{Conclusion}                % Final chapter
+\lipsum[1]                          % Conclusion text
+
+\bibliographystyle{plain}           % Reference style
+\bibliography{references}           % Bibliography file named 'references.bib'
+
+\end{document}
+
