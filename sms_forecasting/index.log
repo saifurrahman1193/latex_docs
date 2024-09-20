@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.20)  20 SEP 2024 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.20)  21 SEP 2024 01:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,159 +664,54 @@ LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
 \c@lstlisting=\count162
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 130.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:92: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 \\
+       [1cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 130.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
 
 
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 132.
+ on input line 137.
 
 
 Package datetime2 Warning: Region `english' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 132.
+ on input line 137.
 
-
-LaTeX Warning: File `logo.png' not found on input line 138.
-
-
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:138: Package pdftex.def Error: File `logo.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \includegraphics{logo.png}
-                                \\[1cm] % Include a department/university lo...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<assets/uiu-logo.png, id=7, 251.4996pt x 228.3732pt>
+File: assets/uiu-logo.png Graphic file (type png)
+<use assets/uiu-logo.png>
+Package pdftex.def Info: assets/uiu-logo.png  used on input line 143.
+(pdftex.def)             Requested size: 100.37537pt x 91.14554pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 156--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--181
-
- []
-
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 170--197
-[][] [] 
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.202 \clearpage
-                 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 218--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--240
-
- []
-
-
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 214--240
-[] [] 
- []
-
-[2
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-[1
-
-
-] [2
-
-
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/assets/uiu-logo.png>]
 \tf@toc=\write4
 \openout4 = `index.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.396 \cleardoublepage
+l.401 \cleardoublepage
                        [1
-
 
 ]
 \tf@lof=\write5
@@ -825,101 +720,86 @@ l.396 \cleardoublepage
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.408 \clearpage
+l.413 \clearpage
                  [1
 
 
 
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.442 \clearpage
+                 [1
+
 ]
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 544.
+
+[2
+
+] [3]
+
+LaTeX Warning: Citation `purchase_module_book' on page 4 undefined on input line 567.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
+
+ []
+
+
+LaTeX Warning: Citation `form_builder_book' on page 4 undefined on input line 575.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+
+LaTeX Warning: Citation `sql_book' on page 4 undefined on input line 578.
+
+
+LaTeX Warning: Citation `sql_book2' on page 4 undefined on input line 578.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
+ []
+
+
+LaTeX Warning: Citation `plsql_book' on page 4 undefined on input line 581.
+
+
+LaTeX Warning: Citation `plsql_book2' on page 4 undefined on input line 581.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
+
+ []
+
+[4
+
+]
+
+LaTeX Warning: Citation `feature_forms' on page 5 undefined on input line 585.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
+
+ []
+
+[5]
 Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.434 
-       [1
+
+LaTeX Warning: File `pic/up_model.png' not found on input line 635.
 
 
-]
-
-Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless on input line 454.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.454 		\item S
-               ecured Log-in System [2] [3]
-Chapter 2.
-
-LaTeX Warning: Citation `purchase_module_book' on page 1 undefined on input line 526.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
-
- []
-
-
-LaTeX Warning: Citation `form_builder_book' on page 1 undefined on input line 534.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 534--535
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.537 O
-       racle Database 11g deliver the highest quality of service in terms of... [1
-
-
-]
-
-LaTeX Warning: Citation `sql_book' on page 2 undefined on input line 537.
-
-
-LaTeX Warning: Citation `sql_book2' on page 2 undefined on input line 537.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-
- []
-
-
-LaTeX Warning: Citation `plsql_book' on page 2 undefined on input line 540.
-
-
-LaTeX Warning: Citation `plsql_book2' on page 2 undefined on input line 540.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
-
- []
-
-
-LaTeX Warning: Citation `feature_forms' on page 2 undefined on input line 544.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.573 \chapter
-              {Development Methodology} [2]
-Chapter 3.
-
-LaTeX Warning: File `pic/up_model.png' not found on input line 594.
-
-
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:594: Package pdftex.def Error: File `pic/up_model.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:635: Package pdftex.def Error: File `pic/up_model.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 ...cs[width=0.5\textwidth]{pic/up_model.png}
+l.635 ...cs[width=0.5\textwidth]{pic/up_model.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -930,46 +810,54 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.600 \clearpage
+l.641 \clearpage
                  [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.600 \clearpage
+l.641 \clearpage
                  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 607--610
+Underfull \hbox (badness 10000) in paragraph at lines 648--651
 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.655 		\item R
+l.696 		\item R
                eceiver [3
 
 ]
 
-LaTeX Warning: File `pic/usecase/seupr_usecase_full.png' not found on input line 663.
+LaTeX Warning: File `pic/usecase/seupr_usecase_full.png' not found on input line 704.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:663: Package pdftex.def Error: File `pic/usecase/seupr_usecase_full.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:704: Package pdftex.def Error: File `pic/usecase/seupr_usecase_full.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.663 ...idth]{pic/usecase/seupr_usecase_full.png}
+l.704 ...idth]{pic/usecase/seupr_usecase_full.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[4]
-Overfull \hbox (36.7039pt too wide) in paragraph at lines 689--737
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.710 \clearpage
+                 [4]
+Overfull \hbox (36.7039pt too wide) in paragraph at lines 730--778
 [][] 
  []
 
-[5]
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.779 \clearpage
+                 [5]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: custom
@@ -1004,22 +892,22 @@ Overfull \hbox (36.7039pt too wide) in paragraph at lines 689--737
 
 
 
-LaTeX Warning: File `pic/Activity/seupr_full_activity.png' not found on input line 1083.
+LaTeX Warning: File `pic/Activity/seupr_full_activity.png' not found on input line 1124.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1083: Package pdftex.def Error: File `pic/Activity/seupr_full_activity.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1124: Package pdftex.def Error: File `pic/Activity/seupr_full_activity.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1083 ...h]{pic/Activity/seupr_full_activity.png}
+l.1124 ...h]{pic/Activity/seupr_full_activity.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 44.91151pt on input line 1087.
+LaTeX Warning: Float too large for page by 44.91151pt on input line 1128.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1031,27 +919,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1152
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
 
  []
 
 
-LaTeX Warning: File `pic/class/seupr_class.png' not found on input line 1154.
+LaTeX Warning: File `pic/class/seupr_class.png' not found on input line 1195.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1154: Package pdftex.def Error: File `pic/class/seupr_class.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1195: Package pdftex.def Error: File `pic/class/seupr_class.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1154 ....1\textwidth]{pic/class/seupr_class.png}
+l.1195 ....1\textwidth]{pic/class/seupr_class.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 1154--1155
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 1195--1196
 [][] 
  []
 
@@ -1063,27 +951,27 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 1163--1164
+Underfull \hbox (badness 10000) in paragraph at lines 1204--1205
 
  []
 
 
-LaTeX Warning: File `pic/erd/erd_full.png' not found on input line 1167.
+LaTeX Warning: File `pic/erd/erd_full.png' not found on input line 1208.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1167: Package pdftex.def Error: File `pic/erd/erd_full.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1208: Package pdftex.def Error: File `pic/erd/erd_full.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1167 ...dth=1.1\textwidth]{pic/erd/erd_full.png}
+l.1208 ...dth=1.1\textwidth]{pic/erd/erd_full.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 1167--1168
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 1208--1209
  [] 
  []
 
@@ -1094,19 +982,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [11]
 
-LaTeX Warning: Reference `fig:erd_full1' on page 12 undefined on input line 1174.
+LaTeX Warning: Reference `fig:erd_full1' on page 12 undefined on input line 1215.
 
 
-LaTeX Warning: File `pic/DFD/context_level.png' not found on input line 1190.
+LaTeX Warning: File `pic/DFD/context_level.png' not found on input line 1231.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1190: Package pdftex.def Error: File `pic/DFD/context_level.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1231: Package pdftex.def Error: File `pic/DFD/context_level.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1190 ...=1\textwidth]{pic/DFD/context_level.png}
+l.1231 ...=1\textwidth]{pic/DFD/context_level.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1151,22 +1039,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-LaTeX Warning: File `pic/schema/seupr_schema.png' not found on input line 1208.
+LaTeX Warning: File `pic/schema/seupr_schema.png' not found on input line 1249.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1208: Package pdftex.def Error: File `pic/schema/seupr_schema.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1249: Package pdftex.def Error: File `pic/schema/seupr_schema.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1208 ...\textwidth]{pic/schema/seupr_schema.png}
+l.1249 ...\textwidth]{pic/schema/seupr_schema.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 220.71452pt on input line 1212.
+LaTeX Warning: Float too large for page by 220.71452pt on input line 1253.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1177,22 +1065,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [15]
 
-LaTeX Warning: File `pic/deployment/client_server.png' not found on input line 1250.
+LaTeX Warning: File `pic/deployment/client_server.png' not found on input line 1291.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1250: Package pdftex.def Error: File `pic/deployment/client_server.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1291: Package pdftex.def Error: File `pic/deployment/client_server.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1250 ...width]{pic/deployment/client_server.png}
+l.1291 ...width]{pic/deployment/client_server.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 1250--1251
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 1291--1292
 [][] 
  []
 
@@ -1200,13 +1088,13 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 1250--1251
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Citation `form_builder_book' on page 16 undefined on input line 1257.
+LaTeX Warning: Citation `form_builder_book' on page 16 undefined on input line 1298.
 
 [16
 
 
 ] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 1270--1271
+Underfull \hbox (badness 10000) in paragraph at lines 1311--1312
 
  []
 
@@ -1215,7 +1103,7 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [18
 
 ]
-Chapter 4.
+Chapter 2.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-33.def
@@ -1223,39 +1111,39 @@ File: uni-33.def 2013/05/13 UCS: Unicode data U+2100..U+21FF
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1337   \item M
+l.1378   \item M
                 ozilla Firefox Browser [Version: 40.0.1, 32-bit] [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1388 			\item A
+l.1429 			\item A
                  n old technology but widely used in Oracle ERP. [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1393 \clearpage
+l.1434 \clearpage
                   [3]
-Chapter 5.
+Chapter 3.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1437 			\item P
+l.1478 			\item P
                  urchase order page [1
 
 
 ]
 
-LaTeX Warning: File `pic/login_page.png' not found on input line 1468.
+LaTeX Warning: File `pic/login_page.png' not found on input line 1509.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1468: Package pdftex.def Error: File `pic/login_page.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1509: Package pdftex.def Error: File `pic/login_page.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1468 ...[width=.5\textwidth]{pic/login_page.png}
+l.1509 ...[width=.5\textwidth]{pic/login_page.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1264,31 +1152,31 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:login_page' on page 2 undefined on input line 1478.
+LaTeX Warning: Reference `fig:login_page' on page 2 undefined on input line 1519.
 
 
-LaTeX Warning: Reference `fig:home_page' on page 2 undefined on input line 1486.
+LaTeX Warning: Reference `fig:home_page' on page 2 undefined on input line 1527.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1487 
+l.1528 
         [2]pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1488 \clearpage
+l.1529 \clearpage
                   [3]
 
-LaTeX Warning: File `pic/home_page.png' not found on input line 1495.
+LaTeX Warning: File `pic/home_page.png' not found on input line 1536.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1495: Package pdftex.def Error: File `pic/home_page.png' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1536: Package pdftex.def Error: File `pic/home_page.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1495 ...cs[width=1\textwidth]{pic/home_page.png}
+l.1536 ...cs[width=1\textwidth]{pic/home_page.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1297,16 +1185,16 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: File `pic/unit_list_page.PNG' not found on input line 1532.
+LaTeX Warning: File `pic/unit_list_page.PNG' not found on input line 1573.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1532: Package pdftex.def Error: File `pic/unit_list_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1573: Package pdftex.def Error: File `pic/unit_list_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1532 ...dth=1\textwidth]{pic/unit_list_page.PNG}
+l.1573 ...dth=1\textwidth]{pic/unit_list_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1315,29 +1203,29 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:unit_list_page' on page 4 undefined on input line 1536.
+LaTeX Warning: Reference `fig:unit_list_page' on page 4 undefined on input line 1577.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1536--1537
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1538--1541
+Underfull \hbox (badness 10000) in paragraph at lines 1579--1582
 
  []
 
 
-LaTeX Warning: File `pic/bank_list_page.PNG' not found on input line 1547.
+LaTeX Warning: File `pic/bank_list_page.PNG' not found on input line 1588.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1547: Package pdftex.def Error: File `pic/bank_list_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1588: Package pdftex.def Error: File `pic/bank_list_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1547 ...dth=1\textwidth]{pic/bank_list_page.PNG}
+l.1588 ...dth=1\textwidth]{pic/bank_list_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1346,19 +1234,19 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:bank_list_page' on page 4 undefined on input line 1551.
+LaTeX Warning: Reference `fig:bank_list_page' on page 4 undefined on input line 1592.
 
 
-LaTeX Warning: File `pic/product_list_page.PNG' not found on input line 1564.
+LaTeX Warning: File `pic/product_list_page.PNG' not found on input line 1605.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1564: Package pdftex.def Error: File `pic/product_list_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1605: Package pdftex.def Error: File `pic/product_list_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1564 ...=1\textwidth]{pic/product_list_page.PNG}
+l.1605 ...=1\textwidth]{pic/product_list_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1367,29 +1255,29 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:product_list_page' on page 4 undefined on input line 1568.
+LaTeX Warning: Reference `fig:product_list_page' on page 4 undefined on input line 1609.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1581 
+l.1622 
         [4
 
 ]
 
-LaTeX Warning: Reference `fig:supplier_list_page' on page 5 undefined on input line 1586.
+LaTeX Warning: Reference `fig:supplier_list_page' on page 5 undefined on input line 1627.
 
 
-LaTeX Warning: File `pic/supplier_list_page.PNG' not found on input line 1595.
+LaTeX Warning: File `pic/supplier_list_page.PNG' not found on input line 1636.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1595: Package pdftex.def Error: File `pic/supplier_list_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1636: Package pdftex.def Error: File `pic/supplier_list_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1595 ...1\textwidth]{pic/supplier_list_page.PNG}
+l.1636 ...1\textwidth]{pic/supplier_list_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1397,90 +1285,90 @@ If that doesn't work, type  X <return>  to quit.
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1599 \end{figure}
+l.1640 \end{figure}
                     [5]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1628--1629
+Underfull \hbox (badness 10000) in paragraph at lines 1669--1670
 
  []
 
 
-Overfull \hbox (15.733pt too wide) in paragraph at lines 1630--1631
+Overfull \hbox (15.733pt too wide) in paragraph at lines 1671--1672
 \OT1/cmr/m/n/12 LOV), price of the prod-uct, quan-tity of that prod-uct that is re-quired (QTY), to-tal amount(which
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
+Underfull \hbox (badness 10000) in paragraph at lines 1671--1672
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1632--1634
+Underfull \hbox (badness 10000) in paragraph at lines 1673--1675
 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1650.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1691.
 
-Overfull \hbox (36.24428pt too wide) in paragraph at lines 1652--1654
+Overfull \hbox (36.24428pt too wide) in paragraph at lines 1693--1695
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1654.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1695.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1654.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1695.
 
-Overfull \hbox (48.2443pt too wide) in paragraph at lines 1639--1687
+Overfull \hbox (48.2443pt too wide) in paragraph at lines 1680--1728
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1690--1691
+Underfull \hbox (badness 10000) in paragraph at lines 1731--1732
 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1691 
+l.1732 
         [6]pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1691 
+l.1732 
         [7]
 
-LaTeX Warning: Reference `fig:req_list_page' on page 8 undefined on input line 1693.
+LaTeX Warning: Reference `fig:req_list_page' on page 8 undefined on input line 1734.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
+l.1747 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
                                                    [8]pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
+l.1747 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
                                                    [9]pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
+l.1747 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
                                                    [10]pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
+l.1747 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
                                                    [11]pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
+l.1747 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
                                                    [12]pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
+l.1747 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
                                                    [13]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -1516,27 +1404,27 @@ l.1706 ...bottom=1cm,left=2cm, top=1cm, right=0cm}
 
 
 
-LaTeX Warning: File `pic/req_list_page.PNG' not found on input line 1712.
+LaTeX Warning: File `pic/req_list_page.PNG' not found on input line 1753.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1712: Package pdftex.def Error: File `pic/req_list_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1753: Package pdftex.def Error: File `pic/req_list_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1712 ...h=1.35\textwidth]{pic/req_list_page.PNG}
+l.1753 ...h=1.35\textwidth]{pic/req_list_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (14.41472pt too wide) in paragraph at lines 1712--1713
+Overfull \hbox (14.41472pt too wide) in paragraph at lines 1753--1754
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 241.04752pt on input line 1716.
+LaTeX Warning: Float too large for page by 241.04752pt on input line 1757.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1544,30 +1432,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1718 \end{landscape}
+l.1759 \end{landscape}
                        [14]
 
-LaTeX Warning: File `pic/req_approval_list.PNG' not found on input line 1733.
+LaTeX Warning: File `pic/req_approval_list.PNG' not found on input line 1774.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1733: Package pdftex.def Error: File `pic/req_approval_list.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1774: Package pdftex.def Error: File `pic/req_approval_list.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1733 ...35\textwidth]{pic/req_approval_list.PNG}
+l.1774 ...35\textwidth]{pic/req_approval_list.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (14.41472pt too wide) in paragraph at lines 1733--1734
+Overfull \hbox (14.41472pt too wide) in paragraph at lines 1774--1775
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 241.04752pt on input line 1737.
+LaTeX Warning: Float too large for page by 241.04752pt on input line 1778.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1575,7 +1463,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1739 \end{landscape}
+l.1780 \end{landscape}
                        [15
 
 
@@ -1585,26 +1473,26 @@ l.1739 \end{landscape}
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1739 \end{landscape}
+l.1780 \end{landscape}
                        [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1749--1750
+Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1751--1752
+Underfull \hbox (badness 10000) in paragraph at lines 1792--1793
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1753--1754
+Underfull \hbox (badness 10000) in paragraph at lines 1794--1795
 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1756 \clearpage
+l.1797 \clearpage
                   [17
 
 
@@ -1644,27 +1532,27 @@ l.1756 \clearpage
 
 
 
-LaTeX Warning: File `pic/Pur_order_page.PNG' not found on input line 1764.
+LaTeX Warning: File `pic/Pur_order_page.PNG' not found on input line 1805.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1764: Package pdftex.def Error: File `pic/Pur_order_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1805: Package pdftex.def Error: File `pic/Pur_order_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1764 ...=1.35\textwidth]{pic/Pur_order_page.PNG}
+l.1805 ...=1.35\textwidth]{pic/Pur_order_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (14.41472pt too wide) in paragraph at lines 1764--1765
+Overfull \hbox (14.41472pt too wide) in paragraph at lines 1805--1806
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 241.04752pt on input line 1768.
+LaTeX Warning: Float too large for page by 241.04752pt on input line 1809.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1672,30 +1560,30 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1770 \end{landscape}
+l.1811 \end{landscape}
                        [18]
 
-LaTeX Warning: File `pic/receipt_list_page.PNG' not found on input line 1783.
+LaTeX Warning: File `pic/receipt_list_page.PNG' not found on input line 1824.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1783: Package pdftex.def Error: File `pic/receipt_list_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1824: Package pdftex.def Error: File `pic/receipt_list_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1783 ...35\textwidth]{pic/receipt_list_page.PNG}
+l.1824 ...35\textwidth]{pic/receipt_list_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (14.41472pt too wide) in paragraph at lines 1783--1784
+Overfull \hbox (14.41472pt too wide) in paragraph at lines 1824--1825
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 241.04752pt on input line 1787.
+LaTeX Warning: Float too large for page by 241.04752pt on input line 1828.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1709,16 +1597,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [20]
 
-LaTeX Warning: File `pic/user_info_page.PNG' not found on input line 1806.
+LaTeX Warning: File `pic/user_info_page.PNG' not found on input line 1847.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1806: Package pdftex.def Error: File `pic/user_info_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1847: Package pdftex.def Error: File `pic/user_info_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1806 ...dth=1\textwidth]{pic/user_info_page.PNG}
+l.1847 ...dth=1\textwidth]{pic/user_info_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1732,16 +1620,16 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [22]
 
-LaTeX Warning: File `pic/Roles_page.PNG' not found on input line 1827.
+LaTeX Warning: File `pic/Roles_page.PNG' not found on input line 1868.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1827: Package pdftex.def Error: File `pic/Roles_page.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1868: Package pdftex.def Error: File `pic/Roles_page.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1827 ...s[width=1\textwidth]{pic/Roles_page.PNG}
+l.1868 ...s[width=1\textwidth]{pic/Roles_page.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1752,7 +1640,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [23
 
 ] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1853
+Underfull \hbox (badness 10000) in paragraph at lines 1881--1894
 
  []
 
@@ -1760,22 +1648,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 1840--1853
 
 ]
 
-LaTeX Warning: File `pic/profile.PNG' not found on input line 1860.
+LaTeX Warning: File `pic/profile.PNG' not found on input line 1901.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1860: Package pdftex.def Error: File `pic/profile.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1901: Package pdftex.def Error: File `pic/profile.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1860 ...cs[width=1.1\textwidth]{pic/profile.PNG}
+l.1901 ...cs[width=1.1\textwidth]{pic/profile.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 1860--1861
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 1901--1902
  [] 
  []
 
@@ -1783,16 +1671,16 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 1860--1861
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: File `pic/notification.PNG' not found on input line 1874.
+LaTeX Warning: File `pic/notification.PNG' not found on input line 1915.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1874: Package pdftex.def Error: File `pic/notification.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1915: Package pdftex.def Error: File `pic/notification.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1874 ...width=1\textwidth]{pic/notification.PNG}
+l.1915 ...width=1\textwidth]{pic/notification.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1801,16 +1689,16 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: File `pic/change_pass.PNG' not found on input line 1886.
+LaTeX Warning: File `pic/change_pass.PNG' not found on input line 1927.
 
 
-/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1886: Package pdftex.def Error: File `pic/change_pass.PNG' not found: using draft setting.
+/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex:1927: Package pdftex.def Error: File `pic/change_pass.PNG' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1886 ...idth=0.6\textwidth]{pic/change_pass.PNG}
+l.1927 ...idth=0.6\textwidth]{pic/change_pass.PNG}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1821,57 +1709,57 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [26
 
 ] [27] [28] [29]
-Chapter 6.
+Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1971 
+l.2012 
         [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1997 
+l.2038 
         [2] [0]
 
-LaTeX Warning: Hyper reference `sec:purchase_module_book_1' on page 1 undefined on input line 2034.
+LaTeX Warning: Hyper reference `sec:purchase_module_book_1' on page 1 undefined on input line 2075.
 
 
-LaTeX Warning: Hyper reference `sec:sql_book_1' on page 1 undefined on input line 2035.
+LaTeX Warning: Hyper reference `sec:sql_book_1' on page 1 undefined on input line 2076.
 
 
-LaTeX Warning: Hyper reference `sec:sql_book_1' on page 1 undefined on input line 2036.
+LaTeX Warning: Hyper reference `sec:sql_book_1' on page 1 undefined on input line 2077.
 
 
-LaTeX Warning: Hyper reference `sec:plsql_book_1' on page 1 undefined on input line 2038.
+LaTeX Warning: Hyper reference `sec:plsql_book_1' on page 1 undefined on input line 2079.
 
 
-LaTeX Warning: Hyper reference `sec:plsql_book_1' on page 1 undefined on input line 2039.
+LaTeX Warning: Hyper reference `sec:plsql_book_1' on page 1 undefined on input line 2080.
 
 
-LaTeX Warning: Hyper reference `sec:form_builder_book_1' on page 1 undefined on input line 2041.
+LaTeX Warning: Hyper reference `sec:form_builder_book_1' on page 1 undefined on input line 2082.
 
 
-LaTeX Warning: Hyper reference `sec:feature_forms_1' on page 1 undefined on input line 2047.
+LaTeX Warning: Hyper reference `sec:feature_forms_1' on page 1 undefined on input line 2088.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2066 \clearpage
+l.2107 \clearpage
                   [1
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.norman}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2066 \clearpage
+l.2107 \clearpage
                  ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2076.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2076.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2117.
  (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2076.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2076.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2117.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2117.
 
 
 LaTeX Warning: There were undefined references.
@@ -1879,21 +1767,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2076.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2117.
  ) 
 Here is how much of TeX's memory you used:
- 24633 strings out of 492982
- 448946 string characters out of 6134896
- 547542 words of memory out of 5000000
- 27500 multiletter control sequences out of 15000+600000
- 11905 words of font info for 42 fonts, out of 8000000 for 9000
+ 24622 strings out of 492982
+ 448977 string characters out of 6134896
+ 547541 words of memory out of 5000000
+ 27499 multiletter control sequences out of 15000+600000
+ 12910 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,77p,1306b,1525s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.pdf (66 pages, 199987 bytes).
+ 62i,16n,77p,1173b,1525s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.pdf (62 pages, 241631 bytes).
 PDF statistics:
- 720 PDF objects out of 1000 (max. 8388607)
- 634 compressed objects within 7 object streams
- 256 named destinations out of 1000 (max. 500000)
- 365 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 679 PDF objects out of 1000 (max. 8388607)
+ 594 compressed objects within 6 object streams
+ 244 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 
