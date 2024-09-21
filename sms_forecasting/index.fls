@@ -5,10 +5,10 @@ INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.tex
 OUTPUT /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/sms_forecasting/index.log
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty

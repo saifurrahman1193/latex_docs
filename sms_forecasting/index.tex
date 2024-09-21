@@ -1,5 +1,5 @@
 %\documentclass[12pt]{article}
-\documentclass[12pt]{report} % for chapters
+\documentclass[12pt]{book} % for chapters
 %\usepackage{fullpage}
 %\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
 \usepackage[margin=1in, paperwidth=8.5in, paperheight=11in]{geometry}
@@ -45,7 +45,6 @@
     C for centered
     R for right side 
 \fi
-\fancyfoot[EC]{\rightmark}
 \lfoot{\fancyfoot[LE,LO]{\leftmark}} 
 \rfoot{ PAGE - \thepage} 
 
@@ -57,10 +56,13 @@
 \parindent 0ex
 \renewcommand{\baselinestretch}{1.5}
 
+% Redefine the plain page style
+\fancypagestyle{plain}{%
+    \lfoot{\fancyfoot[LE,LO]{\leftmark}} 
+    \rfoot{ PAGE - \thepage} 
+}
 
 
-
-%\cfoot{sadasd}
 
 
 \begin{document}
@@ -196,7 +198,6 @@ Copyright\textcopyright{Year \the\year}\\
 
 
 \chapter{Introduction}
-\pagestyle{fancy}
 This report presents a comprehensive analysis of SMS traffic and balance availability for a specific set of clients, with a particular focus on predicting potential service interruptions during holidays. By employing advanced machine learning techniques, such as \textbf{polynomial regression}, we aim to accurately forecast future SMS traffic and balance levels, enabling clients to optimize their usage and avoid unexpected service disruptions. 
 
 By leveraging advanced data analytics, this study provides a comprehensive forecast of SMS traffic and balance levels, enabling organizations to proactively manage their client communication strategies and resource allocation. This predictive model accurately anticipates SMS traffic during peak periods, such as holidays, and offers hourly updates on balance levels for the next two days, ensuring a seamless and uninterrupted service experience for clients.
@@ -229,8 +230,6 @@ To address these challenges, this report presents a comprehensive analysis of SM
 
 
 This report aims to contribute to the field of machine learning applications and provide practical solutions for organizations seeking to optimize their SMS communication infrastructure and deliver exceptional customer service.
-
-
 
 
 
