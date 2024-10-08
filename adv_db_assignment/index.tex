@@ -1,0 +1,205 @@
+%\documentclass[12pt]{article}
+\documentclass[12pt]{book} % for chapters
+%\usepackage{fullpage}
+%\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage[margin=1in, paperwidth=8.5in, paperheight=11in]{geometry}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[depth=subsection]{bookmark}
+\usepackage{multirow}
+\usepackage[usestackEOL]{stackengine}
+%https://www.sharelatex.com/learn/Code_listing
+%For code view in latex
+
+\usepackage{pdflscape}
+
+\usepackage{listings}
+
+
+%\usepackage[linktocpage=true]{hyperref}
+\hypersetup{
+    pdfborder = {0 0 0}
+}
+
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{chngcntr}
+\usepackage{url}
+%header and footer package
+\usepackage{fancyhdr}
+\usepackage[en-US]{datetime2}
+
+%clearing default page heading and footer
+\pagestyle{fancy}
+
+
+
+\fancyhf{}
+%
+\ifx
+     E for even page
+    O for odd page
+    L for left side
+    C for centered
+    R for right side 
+\fi
+\lfoot{\fancyfoot[LE,LO]{\leftmark}} 
+\rfoot{ PAGE - \thepage} 
+
+
+
+\fancyhead{}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headrulewidth}{0pt}
+\parindent 0ex
+\renewcommand{\baselinestretch}{1.5}
+
+% Redefine the plain page style
+\fancypagestyle{plain}{%
+    \lfoot{\fancyfoot[LE,LO]{\leftmark}} 
+    \rfoot{ PAGE - \thepage} 
+}
+
+
+
+
+\begin{document}
+
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\Large Department of Computer Science \& Engineering}\\[0.5cm] % Name of your university/college
+\textsc{\Huge United International University}\\[1cm] % Name of your university/college
+ %\textsc{\Large Major Heading}\\[0.5cm] % Major heading such as course name
+ % \textsc{\large Minor Heading}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \LARGE \textbf{CSE6001: Advanced Database Systems}}\\ [0.4cm] % Title of your document
+{ {\Large \textbf{Implementing a Food Delivery Service Database Using Object-Oriented Oracle and MongoDB}}}\\
+\HRule \\ [1cm]
+%  \textit{A dissertation submitted to the United International University in partial fulfillment of the
+% requirement for the degree B. Sc. in Computer Science \& Engineering}
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \small
+\emph{\textbf{\large Author}:}\\
+Mohammad Saifur Rahman  \\ % Your name
+ID : 0122420002\\
+
+
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{\textbf{Supervisor}:} \\
+\small
+Dr. Mohammad Rezwanul Huq  \\% Supervisor's Name
+Associate Professor \\
+Department of CSE, EWU\\
+
+\end{flushright}
+\end{minipage}\\[3cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+\ifx
+\textregistered\textcopyright
+\sffamily\textregistered\textcopyright
+\fi
+
+Copyright\textcopyright{Year \the\year}\\
+%{\large \today}\\[2cm] % Date, change the \today to a set date if you want to be precise
+\DTMlangsetup{showdayofmonth=false}
+\today\\[1cm]
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=100px]{assets/uiu-logo.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+
+%=========COVER PAGE ENDS HERE==========================
+%=========COVER PAGE ENDS HERE==========================
+
+
+
+\pagenumbering{roman}
+
+
+
+
+%==================Table of contents PAGE starts HERE=============
+%==================Table of contents PAGE starts HERE=============
+%\frontmatter
+\pagenumbering{arabic}
+\counterwithin{equation}{chapter}
+% \counterwithin{figure}{chapter}
+
+
+
+
+
+
+% \thispagestyle{empty}
+%     \addtocontents{toc}{\protect\thispagestyle{empty}}
+% \tableofcontents
+% \thispagestyle{empty}
+% \clearpage
+
+%\addtocontents{toc}{~\vfill}
+\addtocontents{toc}{~\hfill{\large \textbf{Chapters}}}
+\addtocontents{toc}{~\hfill{\large \textbf{Page}}\par}
+
+%==================Table of contents PAGE ends HERE=============
+%==================Table of contents PAGE ends HERE=============
+
+
+
+
+\setcounter{page}{1}
+
+
+%=================Introduction PAGE Starts HERE=================
+%=================Introduction PAGE Starts HERE=================
+
+
+\section*{Introduction}
+
+%Introduction PAGE ends HERE----------
+%Introduction PAGE ends HERE----------
+
+
+
+
+
+\end{document}
