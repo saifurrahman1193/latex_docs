@@ -212,6 +212,7 @@ Ultimately, this research contributes to the field of machine learning applicati
 
 
 \section{Background}
+At Wintel Limited, there was a need for SMS balance forecasting analysis to predict SMS traffic and balance levels in advance. By anticipating these factors, the company can avoid SMS shortages during peak times, such as holidays or unexpected events, ensuring continuous service availability.
 \subsection{The Problem}
 
 In today's fast-paced world, SMS communication has become an integral part of our daily lives. For organizations with a large customer base, managing SMS traffic and ensuring adequate balance availability can be a complex challenge, especially during peak periods such as holidays. Service interruptions due to insufficient balance or overloaded networks can lead to customer dissatisfaction and financial losses.
@@ -285,20 +286,41 @@ This report aims to contribute to the field of machine learning applications and
 %     Explanation of the data collection process.
 %     Data preprocessing techniques (cleaning, normalization, etc.).
 \subsection{Description of the data sources used}
-For this project, data from Wintel Limited was used. To achieve better results and improve model building, a real-life, real-time dataset will be used, ensuring more accurate and practical outcomes.
+For this project, data from Wintel Limited is used. To achieve better results and improve model building, a real-life, real-time dataset will be used, ensuring more accurate and practical outcomes.
 
 \subsection{Data Collection Process}
-In wintel each 4 hours a cron/scheduler will be called where this model will work and generate the predictions. For Both masking and non-masking sms traffic and balance seperate models will be called. In each day approximately 6 times the this process will work. We will pick last 180 days dataset from database and use it to the model.
+In wintel each 4 hours a cron/scheduler will be called where this model will work and generate the predictions. For Both masking and non-masking sms traffic and balance seperate models will be called. In each day approximately 6 times the this process will work. We will pick last 180 days dataset from wintext portal mssql database and use it to the model.
 
 \subsection{Data preprocessing techniques}
-For data preprocessing 
 
-\section{Training Data}
-\section{Test Data}
+\begin{itemize}
+    \item Timestamps were converted into a consistent datetime format to facilitate accurate time-series analysis.
+    \item SMS traffic counts and balance levels were ensured to be in numeric formats for proper calculation and analysis.
+    \item Duplicate records in SMS traffic logs were identified by checking for identical timestamps, client IDs, and traffic counts.
+    \item Special care was taken to adjust for traffic and balance patterns during holidays, which often exhibit different behaviors from regular periods. Historical holiday data was cross-referenced with the current dataset to ensure accurate classification and analysis.
+    \item  SMS Traffic per Operator \& Client: The SMS traffic per operator and client was calculated to analyze usage patterns.
+    \item Balance per Client: The balance per client was calculated to assess balance allocation.
+    \item Balance per Operator: The balance per operator was calculated to assess balance allocation to opertor wise.
+\end{itemize}
 
 
+
+
+\subsection{Training Data}
+We collected the daily operator balance data spanning over the last 6 months (180 days) from the \texttt{ds\_dly\_operator\_balance}  table, which includes the fields: operator ID, available SMS balance (masking and non-masking), date, and day number. Before training, missing balance values were filled with the median balance for each operator, and features were standardized to ensure that each operator's data contributed equally to the model.
+
+
+\subsection{Test Data}
+For testing, we reserved the most recent data (from the last 7 days) to measure the accuracy of the SMS balance forecast. The test dataset contains unseen operator balances, and we used RMSE to evaluate the prediction accuracy.
+
+
+
+\subsection{Cross-Validation}
+To avoid overfitting and ensure model generalization, we applied 5-fold cross-validation. The dataset was split into 5 equal parts, with each part used as a test set while the remaining data served as the training set. This process was repeated 5 times, and the average RMSE across all folds was used to evaluate model performance.
 
 % Section 2.2: Training Data
+% https://www.youtube.com/watch?v=vAi6bCTFuAY
+
 
 %     Details of the training dataset.
 %     Features selected for training.
@@ -347,5 +369,39 @@ For data preprocessing
 
 %     Suggestions for future research.
 %     Potential extensions or applications of the work.
+
+
+
+
+\section{Conclusion}
+
+This report presents a comprehensive study on forecasting SMS traffic and balance availability using machine learning techniques. By leveraging historical data from Wintel Limited, we developed a predictive model capable of providing accurate forecasts for SMS traffic and balance levels over the next two days. This model has demonstrated its ability to anticipate potential service interruptions, particularly during holidays and other peak periods, ensuring clients can optimize their SMS usage and avoid disruptions.
+
+Key benefits of this work include:
+
+\begin{itemize}
+    \item Improved service reliability during peak traffic periods.
+    \item Enhanced resource allocation based on accurate demand forecasts.
+    \item Increased customer satisfaction through proactive management of SMS traffic and balances.
+\end{itemize}
+
+Overall, this project contributes to the practical application of machine learning in managing communication resources, especially in time-sensitive environments where uninterrupted service is critical.
+
+
+\section{Future Works}
+
+While the current model demonstrates strong predictive capabilities, several areas for future research and improvement have been identified:
+
+\begin{itemize}
+    
+    \item \textbf{Model Optimization:} Future iterations of the model can explore the use of advanced machine learning techniques, such as deep learning or ensemble models, to improve prediction accuracy, especially for more complex traffic patterns. Also we don't have currently all 180 days real dataset to actually verify original outcomes. After getting 180 days dataset we can verify the model more accurately.
+    \item \textbf{Incorporation of Additional Features:} Additional factors, such as external events, marketing campaigns, or changes in client behavior, can be incorporated into the model to refine its forecasts further.
+    \item \textbf{Real-Time Prediction:} While this report focused on hourly predictions, the model can be extended to provide real-time updates, allowing for even more dynamic resource management.
+    \item \textbf{Scalability:} Further research is needed to test the scalability of the model across a broader set of clients and operators, particularly for large-scale applications where SMS traffic volume is significantly higher.
+    \item \textbf{Exploring Different Algorithms:} Polynomial regression was used for this project, but future work could evaluate the performance of alternative algorithms, such as decision trees, random forests, or gradient boosting methods, to find the best fit for the problem domain.
+    \item \textbf{Integration with Automated Systems:} Finally, future work can focus on integrating the predictive model into automated systems that can automatically allocate resources or send alerts to clients when balances are predicted to drop below a critical threshold.
+\end{itemize}
+
+By addressing these areas, we can further enhance the reliability and robustness of SMS traffic and balance prediction systems, ultimately improving client experiences and operational efficiency.
 
 \end{document}
