@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.20)  8 OCT 2024 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.20)  11 OCT 2024 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_assignment/index.tex
-(/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_assignment/index.tex
+**/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.tex
+(/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -567,7 +567,7 @@ File: datetime2-english.ldf 2016/03/09 v1.04 (NLCT)
 File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 )) (/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
 File: datetime2-en-US.ldf 2016/03/09 v1.04 (NLCT)
-)) (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_assignment/index.aux)
+)) (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.aux)
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -664,58 +664,86 @@ LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
 \c@lstlisting=\count162
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 134.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 134.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
 
 
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 136.
+ on input line 144.
 
 
 Package datetime2 Warning: Region `english' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 136.
+ on input line 144.
 
 <assets/uiu-logo.png, id=7, 251.4996pt x 228.3732pt>
 File: assets/uiu-logo.png Graphic file (type png)
 <use assets/uiu-logo.png>
-Package pdftex.def Info: assets/uiu-logo.png  used on input line 142.
+Package pdftex.def Info: assets/uiu-logo.png  used on input line 150.
 (pdftex.def)             Requested size: 100.37537pt x 91.14554pt.
-[1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_assignment/assets/uiu-logo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/assets/uiu-logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+ []
+
+<assets/top_10_most_common_db_security_issues.png, id=24, 605.26125pt x 432.86719pt>
+File: assets/top_10_most_common_db_security_issues.png Graphic file (type png)
+<use assets/top_10_most_common_db_security_issues.png>
+Package pdftex.def Info: assets/top_10_most_common_db_security_issues.png  used on input line 228.
+(pdftex.def)             Requested size: 375.80544pt x 268.76457pt.
+<assets/types_of_db_security.png, id=25, 668.4975pt x 289.83281pt>
+File: assets/types_of_db_security.png Graphic file (type png)
+<use assets/types_of_db_security.png>
+Package pdftex.def Info: assets/types_of_db_security.png  used on input line 239.
+(pdftex.def)             Requested size: 451.68915pt x 195.84097pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.206 \end{document}
-                     [1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
- (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_assignment/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 206.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 206.
+l.240 
+       [1 </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/assets/top_10_most_common_db_security_issues.png (PNG copy)>] [2 </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/assets/types_of_db_security.png (PNG copy)>] [3
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
+ (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 294.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
  ) 
 Here is how much of TeX's memory you used:
- 23017 strings out of 492982
- 432147 string characters out of 6134896
- 515715 words of memory out of 5000000
- 26181 multiletter control sequences out of 15000+600000
- 11473 words of font info for 40 fonts, out of 8000000 for 9000
+ 23054 strings out of 492982
+ 433166 string characters out of 6134896
+ 515871 words of memory out of 5000000
+ 26210 multiletter control sequences out of 15000+600000
+ 12394 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,1041b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,77p,1050b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_assignment/index.pdf (2 pages, 114156 bytes).
+Output written on /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.pdf (4 pages, 222742 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -88,7 +88,7 @@
 
 \HRule \\[0.4cm]
 { \huge \LARGE \textbf{CSE6001: Advanced Database Systems}}\\ [0.4cm] % Title of your document
-{ {\Large \textbf{Implementing a Food Delivery Service Database Using Object-Oriented Oracle and MongoDB}}}\\
+{ {\Large \textbf{Database Privacy and Security: Concepts, Risks and Practices}}}\\
 \HRule \\ [1cm]
 %  \textit{A dissertation submitted to the United International University in partial fulfillment of the
 % requirement for the degree B. Sc. in Computer Science \& Engineering}
@@ -100,8 +100,16 @@
 \begin{minipage}{0.5\textwidth}
 \begin{flushleft} \small
 \emph{\textbf{\large Author}:}\\
-Mohammad Saifur Rahman  \\ % Your name
+S.M. Absar Rashid\\
+ID : 0122420025\\
+Mohammad Saifur Rahman\\
 ID : 0122420002\\
+Ekra Hossain\\
+ID : 0122420004\\
+SHAMS AREFIN RUBAIYAT\\
+ID : 0122420040\\
+
+
 
 
 \end{flushleft}
@@ -189,18 +197,98 @@ Copyright\textcopyright{Year \the\year}\\
 \setcounter{page}{1}
 
 
+% Points to be focused: Term Paper
+% ===============================
+% Texonomy
+% general classification
+% tree
+% hiararchy
+% comparison
+% related work comparison
+% workflow
+% more figure
+
 %=================Introduction PAGE Starts HERE=================
 %=================Introduction PAGE Starts HERE=================
 
 
-\section*{Part 1: Implementing in Object-Oriented Oracle}
-\section*{Part 2: Implementing in MongoDB}
+\section*{Introduction}
 
 %Introduction PAGE ends HERE----------
 %Introduction PAGE ends HERE----------
 
+\subsection*{Common Database Security Issues}
 
 
+Data corruption due to the entering invalid data and or commands, also mistake in the database can result weakness in database or repository systems. According to the NCC Group Study, UK following are the common
+database security issues.\cite{db_security_an_overview_and_analysis_of_current_trend} \label{sec:db_security_an_overview_and_analysis_of_current_trend_1}\\
+
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[width=0.8\textwidth]{assets/top_10_most_common_db_security_issues.png}
+	\end{center}
+	%latex how to skip a figure in list of figure
+	\caption[]{Some of the common Database Security
+    Survey (NCC Group Survey, UK)}
+	\label{fig:top_10_most_common_db_security_issues}
+\end{figure}
+
+
+\subsection*{Types of Database Security}
+
+\includegraphics[width=450px]{assets/types_of_db_security.png}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+
+
+
+
+\begin{itemize}
+		\item \textbf{Physical Security:} Physical Security means protecting database from unauthorized access physical level. This means applying security in server rooms, monitoring who has previleges and enter the data center, and also using enough security cameras and alarming systems.
+		
+		
+		\item \textbf{Access control:} Access control states that Implementing restrictions database access to authorized users only. It includes several key components, authentication, authorization.
+
+        \item \textbf{Network Security:} Network Security implies preventing harm to the database from unauthorized access and keeping the database safe from network-based threats. 
+        
+        There are several Key measures we can take like firewalls, intrusion detection systems, encryption, Virtual Private Networks, Access Control, Network Segmentation, Patch Management, Secure Network Protocols, DDoS Protection, Network Monitoring, User Education and Awareness, Zero Trust Security and so on.
+
+
+
+
+        
+
+
+\end{itemize}
+
+
+
+
+
+\renewcommand\bibname{References} % Removing thebibliography title
+\begin{thebibliography}{1}
+\addcontentsline{toc}{chapter}{\refname} %make bibliography as reference chapter 
+    \bibitem{db_security_an_overview_and_analysis_of_current_trend}  \hyperref[sec:db_security_an_overview_and_analysis_of_current_trend_1]{Database Security: An Overview and Analysis of Current Trend} 
+
+   
+
+
+    % \bibitem{purchase_module_book}  \hyperref[sec:purchase_module_book_1]{Mitchell, V. \& Simpson, D.F. (2007). R12 Oracle purchasing fundamentals.} 
+    % \bibitem{sql_book} \hyperref[sec:sql_book_1]{Clement, S. \& Pottle, B. \& Singh, P. (2010). Oracle Database: SQL Fundamentals I.}
+    % \bibitem{sql_book2} \hyperref[sec:sql_book_1]{Koratamaddi, C. \& Pottle, B. \& Srivastava, T. (2010). Oracle Database: SQL Fundamentals II.}
+    
+    % \bibitem{plsql_book} \hyperref[sec:plsql_book_1]{Pottle, B. (2009). Oracle Database 11g: PL/SQL Fundamentals.}
+    % \bibitem{plsql_book2} \hyperref[sec:plsql_book_1]{Serhal, L.K. (2009). Oracle Database 11g: Develop PL/SQL Program Units.}
+    
+    % \bibitem{form_builder_book}  \hyperref[sec:form_builder_book_1]{Gamer, P. (2006). Oracle Forms Developer 10g: Build Internet Applications.}
+    
+    % \bibitem{norman} \textit{Oracle Purchasing User's Guide}. (2018, January 10). Retrieved  from  {\url{https://docs.oracle.com/cd/E18727_01/doc.121/e13410/toc.htm}}
+    
+    % \bibitem{norman} Greenwood, S. (August 3, 2015). The future of Oracle Forms. Retrieved  from  {\url{http://www.explorer.uk.com/the-future-of-oracle-forms/}}
+    
+    % \bibitem{feature_forms} \hyperref[sec:feature_forms_1]{ \textit{The future of Oracle Forms}. (2018, February 10). Retrieved  from  {\url{https://www.toadworld.com/platforms/oracle/w/wiki/11125.the-future-of-oracle-forms}} }
+  
+\end{thebibliography}
+  
 
 
 \end{document}
