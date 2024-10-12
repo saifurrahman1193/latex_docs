@@ -196,6 +196,30 @@ Copyright\textcopyright{Year \the\year}\\
 \section*{Part 1: Implementing in Object-Oriented Oracle}
 \section*{Part 2: Implementing in MongoDB}
 
+Here I have used JSON schema to define the structure and validation rules for each collection. I have explicily used create commands. Though in mongodb we don\'t need to use create command. In each collection i have inserted at least 5 records or documents. Here I have used 
+
+Here's how JSON schema is used in the code:
+\begin{itemize}
+    \item \textbf{schema:} Every collection has a validator that specifies JSON schema for that collection
+    \item \textbf{data types:} Data types for each field, such as string, number, boolean, date, and array.
+    \item \textbf{required fields:} It defines which fields are required and which are optional.
+    \item \textbf{validation rules:} validation rules, such as regular expressions for email addresses or phone numbers, or range constraints for numerical values
+\end{itemize}
+
+MongoDB supports both reference-based and embedded document modeling,  but in this project I have used embedded documents to represent relationships between entities.
+
+
+
+
+\begin{itemize}
+    \item \textbf{food\_items collection:} here restaurant\_id: linking the food item to the restaurant collection.
+    \item \textbf{oreders collection:} customer\_id linking the customer. food\_items: Array of ordered food items which is embedded, each with a food\_item\_id which is linking with food item collection. delivery\_personnel\_id linking the delivery persoannel collection. 
+    \item \textbf{payments collection:} order\_id linking with order collection.
+    \item \textbf{combo\_offers collection:} restaurant\_id linking with restaurant collection
+\end{itemize}
+
+
+
 %Introduction PAGE ends HERE----------
 %Introduction PAGE ends HERE----------
 
