@@ -194,24 +194,24 @@ Copyright\textcopyright{Year \the\year}\\
 
 
 \section*{Part 1: Implementing in Object-Oriented Oracle}
-\section*{Part 2: Implementing in MongoDB}
-
-Here I have used JSON schema to define the structure and validation rules for each collection. I have explicily used create commands. Though in mongodb we don\'t need to use create command. In each collection i have inserted at least 5 records or documents. Here I have used 
-
-Here's how JSON schema is used in the code:
+\subsection*{\textbf{Some pints}}
 \begin{itemize}
-    \item \textbf{schema:} Every collection has a validator that specifies JSON schema for that collection
-    \item \textbf{data types:} Data types for each field, such as string, number, boolean, date, and array.
-    \item \textbf{required fields:} It defines which fields are required and which are optional.
-    \item \textbf{validation rules:} validation rules, such as regular expressions for email addresses or phone numbers, or range constraints for numerical values
+    \item Created object types : Customers\_O, Restaurants\_O, FoodItems\_O, Orders\_O, DeliveryPersonnel\_O, Payments\_O, and ComboOffers\_O.
+    \item Relationships were created with foreign keys to ensure referential integrity. For example, food items reference restaurants, and orders reference customers and delivery personnel.
+    \item Relationships were maintained: orders contain food items, and combo offers are belongs to specific restaurants.
+    \item Tables (customers, restaurants, food\_items, orders, delivery\_personnel, combo\_offers, payments) were created based on the defined object types.
+    \item 3 tables (orders, order\_food\_items, food\_items) made a many to many relationships here. order\_food\_items here the junction table.
+    \item This is my life first OODB codes. So, it took some time to generate this. 
 \end{itemize}
 
-MongoDB supports both reference-based and embedded document modeling,  but in this project I have used embedded documents to represent relationships between entities.
+\section*{Part 2: Implementing in MongoDB}
 
+Here I have used JSON schema to define the structure and validation rules for each collection. I have explicily used create commands. Though in mongodb we don\'t need to use create command. In each collection I have inserted at least 5 records or documents. 
 
-
-
+\subsection*{\textbf{Some pints}}
 \begin{itemize}
+    \item Each collections includes necessary fields with validation constraints
+    \item Relationships were made based on field references
     \item \textbf{food\_items collection:} here restaurant\_id: linking the food item to the restaurant collection.
     \item \textbf{oreders collection:} customer\_id linking the customer. food\_items: Array of ordered food items which is embedded, each with a food\_item\_id which is linking with food item collection. delivery\_personnel\_id linking the delivery persoannel collection. 
     \item \textbf{payments collection:} order\_id linking with order collection.
@@ -219,12 +219,8 @@ MongoDB supports both reference-based and embedded document modeling,  but in th
 \end{itemize}
 
 
-
 %Introduction PAGE ends HERE----------
 %Introduction PAGE ends HERE----------
-
-
-
 
 
 \end{document}
