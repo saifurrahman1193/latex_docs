@@ -104,10 +104,10 @@ Mohammad Saifur Rahman  \\ % Your name
 ID : 0122420002\\
 Nirupom Das Dipto  \\ % Your name
 ID : 0122230023\\
-Md. Raqibur Rahman  \\ % Your name
-ID : 0122310001\\
 Md Mizanur Rahman \\ % Your name
 ID : 0122420016\\
+Md. Raqibur Rahman  \\ % Your name
+ID : 0122310001\\
 
 \end{flushleft}
 \end{minipage}
@@ -213,6 +213,20 @@ Ultimately, this research contributes to the field of machine learning applicati
 
 \section{Background}
 At Wintel Limited, there was a need for SMS balance forecasting analysis to predict SMS traffic and balance levels in advance. By anticipating these factors, the company can avoid SMS shortages during peak times, such as holidays or unexpected events, ensuring continuous service availability.
+
+\subsection{Objectives​}
+\begin{itemize}
+    \item The objectives of this project is to develop a predictive model using advanced machine learning techniques to accurately forecast masking and non-masking SMS traffic and balance levels for a specific set of clients. More specifically the purpose of this project is to generate next 2 days predictions.​
+    \item To identify potential service interruptions during peak periods, such as holidays, and provide early warnings to organizations and its clients.​
+    \item To enable organizations to optimize their SMS communication strategies and resource allocation by providing timely information on SMS traffic and balance levels.​
+    \item To contribute to the field of machine learning applications by demonstrating the effectiveness of polynomial regression in predicting SMS traffic and balance.​
+    \item To provide practical solutions for organizations seeking to improve their SMS communication infrastructure and deliver exceptional customer service.​
+\end{itemize}
+
+
+
+
+
 \subsection{The Problem}
 
 In today's fast-paced world, SMS communication has become an integral part of our daily lives. For organizations with a large customer base, managing SMS traffic and ensuring adequate balance availability can be a complex challenge, especially during peak periods such as holidays. Service interruptions due to insufficient balance or overloaded networks can lead to customer dissatisfaction and financial losses.
@@ -232,6 +246,15 @@ To address these challenges, this report presents a comprehensive analysis of SM
 
 This report aims to contribute to the field of machine learning applications and provide practical solutions for organizations seeking to optimize their SMS communication infrastructure and deliver exceptional customer service.
 
+
+
+
+\subsection{Significance of our project}
+Forecasting SMS traffic flow using machine learning algorithms offers a powerful method for not only predicting SMS volumes based on historical data but also incorporating various external factors that may affect traffic.
+
+External factors like weather conditions, time of day, and calendar events can introduce irregularities in SMS traffic patterns, making it crucial to account for these variables when building forecasting models.
+
+By integrating these external variables into the prediction model, machine learning algorithms can generate more accurate forecasts. These improved predictions help organizations make more informed decisions about how to manage SMS traffic flows, optimize resource allocation, and improve operational efficiency.
 
 
 
@@ -280,11 +303,61 @@ This report aims to contribute to the field of machine learning applications and
     
 
 \chapter{Methodology}
+
 \section{Corpus Collection}
 % Section 2.1: Corpus Collection
 %     Description of the data sources used.
 %     Explanation of the data collection process.
 %     Data preprocessing techniques (cleaning, normalization, etc.).
+
+\subsection{Dataset}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Date} & \textbf{Balance} \\ \hline
+        2024-09-24 & 138706 \\ \hline
+        2024-09-25 & 138214 \\ \hline
+        2024-09-26 & 137241 \\ \hline
+        2024-09-27 & 134192 \\ \hline
+        2024-09-28 & 118229 \\ \hline
+        2024-09-29 & 116883 \\ \hline
+        2024-09-30 & 113839 \\ \hline
+        2024-10-01 & 112638 \\ \hline
+        2024-10-02 & 111951 \\ \hline
+        2024-10-03 & 110807 \\ \hline
+        2024-10-04 & 105434 \\ \hline
+        2024-10-05 & 103655 \\ \hline
+        2024-10-06 & 100337 \\ \hline
+        2024-10-07 & 96591 \\ \hline
+        2024-10-08 & 86970 \\ \hline
+        2024-10-09 & 162602 \\ \hline
+        2024-10-10 & 155813 \\ \hline
+        2024-10-11 & 155048 \\ \hline
+        2024-10-12 & 154230 \\ \hline
+        2024-10-13 & 154108 \\ \hline
+    \end{tabular}
+    \caption{Balance Data from 2024-09-24 to 2024-10-13}
+    \label{tab:balance_data}
+\end{table}
+
+
+\begin{itemize}
+    \item \textbf{Total Dataset:} 20 incidents (achieved from the work-data till date)
+    \item \textbf{Training Data:} 70\% of the total dataset
+    \item \textbf{Testing Data:} 30\% of the total dataset
+\end{itemize}
+
+\subsection{Experimental Setup}
+
+\begin{itemize}
+    \item \textbf{Polynomial Degree:} We have considered the best-fit degree of 2 for our model.
+    \item \textbf{Accuracy Checking:} We have analyzed whether the real-life SMS traffic requirement lies within the predicted SMS traffic values generated by our model.
+\end{itemize}
+
+
+
 \subsection{Description of the data sources used}
 For this project, data from Wintel Limited is used. To achieve better results and improve model building, a real-life, real-time dataset will be used, ensuring more accurate and practical outcomes.
 
@@ -302,6 +375,62 @@ In wintel each 4 hours a cron/scheduler will be called where this model will wor
     \item Balance per Client: The balance per client was calculated to assess balance allocation.
     \item Balance per Operator: The balance per operator was calculated to assess balance allocation to opertor wise.
 \end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Polynomial Regression}
+
+\textbf{Polynomial Regression} is an extension of linear regression where the relationship between the independent variable(s) and the dependent variable is modeled as an $n$th-degree polynomial. This method is particularly effective when the data exhibit non-linear relationships that cannot be captured by a simple linear regression model.
+
+The general form of a polynomial regression equation is:
+
+\[
+y = \beta_0 + \beta_1 x + \beta_2 x^2 + \beta_3 x^3 + \dots + \beta_n x^n + \epsilon
+\]
+
+Where:
+\begin{itemize}
+    \item $y$ is the dependent variable (response variable).
+    \item $x$ is the independent variable (predictor variable).
+    \item $\beta_0, \beta_1, \dots, \beta_n$ are the coefficients of the polynomial.
+    \item $\epsilon$ is the error term (residuals).
+\end{itemize}
+
+\subsection{Key Terms in Polynomial Regression}
+\begin{itemize}
+    \item \textbf{Polynomial Terms}: These are the powers of the independent variable(s), such as $x^2$, $x^3$, etc., that enable the model to fit non-linear data.
+    \item \textbf{Degree of Polynomial}: This refers to the highest exponent in the polynomial equation (e.g., $n$ in $x^n$). Higher degrees capture more complexity in the data but can lead to overfitting.
+    \item \textbf{Least Squares Method}: The coefficients $\beta_0, \beta_1, \dots, \beta_n$ are estimated by minimizing the sum of squared residuals between the observed and predicted values.
+\end{itemize}
+
+
+
+\subsection{System Diagram}
+
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{assets/sysdiagram.png} 
+	\end{center}
+	\caption{System Diagram} % Use caption* to avoid adding it to the list of figures
+	\label{fig:systemdiagram}
+\end{figure}
+
 
 
 
