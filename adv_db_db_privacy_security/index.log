@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.20)  13 OCT 2024 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  14 OCT 2024 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.tex
-(/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.tex
+**/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/index.tex
+(/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/index.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
@@ -567,7 +567,7 @@ File: datetime2-english.ldf 2016/03/09 v1.04 (NLCT)
 File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 )) (/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
 File: datetime2-en-US.ldf 2016/03/09 v1.04 (NLCT)
-)) (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.aux)
+)) (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/index.aux)
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -694,32 +694,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/assets/uiu-logo.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/assets/uiu-logo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
-
-Underfull \vbox (badness 4132) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.244 
-       [1]
-<assets/top_10_most_common_db_security_issues.png, id=31, 605.26125pt x 432.86719pt>
+<assets/top_10_most_common_db_security_issues.png, id=25, 605.26125pt x 432.86719pt>
 File: assets/top_10_most_common_db_security_issues.png Graphic file (type png)
 <use assets/top_10_most_common_db_security_issues.png>
 Package pdftex.def Info: assets/top_10_most_common_db_security_issues.png  used on input line 247.
 (pdftex.def)             Requested size: 375.80544pt x 268.76457pt.
-<assets/types_of_db_security.png, id=32, 668.4975pt x 289.83281pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<assets/types_of_db_security.png, id=26, 668.4975pt x 289.83281pt>
 File: assets/types_of_db_security.png Graphic file (type png)
 <use assets/types_of_db_security.png>
 Package pdftex.def Info: assets/types_of_db_security.png  used on input line 258.
@@ -732,26 +725,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/assets/top_10_most_common_db_security_issues.png (PNG copy)>] [3 </mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/assets/types_of_db_security.png (PNG copy)>] [4
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.259 
+       [1] [2 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/assets/top_10_most_common_db_security_issues.png (PNG copy)> </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/assets/types_of_db_security.png (PNG copy)>] [3] [4
 
 ] [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
- (/mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.aux)
+ (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/index.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 309.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 309.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 309.
  ) 
 Here is how much of TeX's memory you used:
- 23314 strings out of 492982
- 436303 string characters out of 6134896
- 517991 words of memory out of 5000000
- 26463 multiletter control sequences out of 15000+600000
+ 23057 strings out of 492982
+ 433454 string characters out of 6134896
+ 517990 words of memory out of 5000000
+ 26209 multiletter control sequences out of 15000+600000
  12394 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,77p,1050b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,77p,1061b,479s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on /mnt/7e3701e0-10b9-4e10-8884-5b27c662033b/Projects/latex_docs/adv_db_db_privacy_security/index.pdf (6 pages, 227777 bytes).
+Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/adv_db_db_privacy_security/index.pdf (6 pages, 226294 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
