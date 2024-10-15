@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  14 OCT 2024 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  15 OCT 2024 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -730,7 +730,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6] [7]
-<assets/sysdiagram.png, id=116, 529.37775pt x 367.97475pt>
+<assets/sysdiagram.png, id=120, 529.37775pt x 367.97475pt>
 File: assets/sysdiagram.png Graphic file (type png)
 <use assets/sysdiagram.png>
 Package pdftex.def Info: assets/sysdiagram.png  used on input line 428.
@@ -743,31 +743,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]
 Chapter 3.
-[11] [12
-
-]
+<assets/result-predicted-vs-actual-sms-balance.png, id=137, 715.11165pt x 426.393pt>
+File: assets/result-predicted-vs-actual-sms-balance.png Graphic file (type png)
+<use assets/result-predicted-vs-actual-sms-balance.png>
+Package pdftex.def Info: assets/result-predicted-vs-actual-sms-balance.png  used on input line 490.
+(pdftex.def)             Requested size: 375.80544pt x 224.08089pt.
+[11 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png>] [12]
 Chapter 4.
-[13] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 536.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 536.
+[13
+
+] [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
  (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 536.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 536.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 536.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 552.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
  ) 
 Here is how much of TeX's memory you used:
- 23375 strings out of 492982
- 436484 string characters out of 6134896
- 520835 words of memory out of 5000000
- 26489 multiletter control sequences out of 15000+600000
+ 23386 strings out of 492982
+ 436840 string characters out of 6134896
+ 520918 words of memory out of 5000000
+ 26496 multiletter control sequences out of 15000+600000
  12563 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,11n,77p,1050b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.pdf (18 pages, 248186 bytes).
+Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.pdf (18 pages, 358185 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 
