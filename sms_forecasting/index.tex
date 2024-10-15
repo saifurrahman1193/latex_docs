@@ -461,7 +461,34 @@ Where:
 % \subsection{Test Data}
 
 
-% \subsection{Cross-Validation}
+\subsection{Cross-Validation}
+K-fold cross-validation is a common strategy where the dataset is divided into \(k\) subsets (folds). The model is trained \(k\) times, each time using a different fold for validation and the remaining folds for training. 
+
+\subsection{Implementation}
+We use Python's \texttt{scikit-learn} library to implement cross-validation. Below is the code demonstrating k-fold cross-validation using polynomial regression:
+\subsection{Cross-Validation Results}
+
+To evaluate the performance of the model, we performed a 5-fold cross-validation. The Mean Squared Error (MSE) for each fold is presented below:
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccc@{}}
+        \toprule
+        \textbf{Fold} & \textbf{MSE} \\ \midrule
+        Fold 1 & 731,548,313.47 \\
+        Fold 2 & 51,671,242.87 \\
+        Fold 3 & 225,424,809.40 \\
+        Fold 4 & 134,718,956.94 \\
+        Fold 5 & 377,833,216.14 \\ \midrule
+        \textbf{Average MSE} & \textbf{304,239,307.76} \\ \bottomrule
+    \end{tabular}
+    \caption{Mean Squared Error (MSE) for Each Fold}
+    \label{tab:mse_results}
+\end{table}
+
+The table above summarizes the MSE for each fold of the cross-validation. The average MSE across all folds is approximately 304,239,307.76, indicating the model's performance. 
+
+
 % To avoid overfitting and ensure model generalization, we applied 5-fold cross-validation. The dataset was split into 5 equal parts, with each part used as a test set while the remaining data served as the training set. This process was repeated 5 times, and the average RMSE across all folds was used to evaluate model performance.
 
 % Section 2.2: Training Data
