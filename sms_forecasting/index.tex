@@ -579,9 +579,24 @@ Here is the chart that compares the predicted and actual SMS volumes for Days 15
 
 The performance of our polynomial regression model was evaluated using the R-squared (R²) value, a measure of how well the model explains the variance in the actual data. For our model, we obtained:
 
+
+\[
+R^2 = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}
+\]
+
+
 \[
     R^2 = -0.7228
 \]
+
+Where:
+\begin{itemize}
+    \item $y_i$ represents the actual SMS volumes.
+    \item $\hat{y}_i$ represents the predicted SMS volumes.
+    \item $\bar{y}$ represents the mean of the actual SMS volumes.
+    \item The numerator captures the residual sum of squares (RSS), which measures the total error between the actual and predicted values.
+    \item The denominator captures the total sum of squares (TSS), which represents the total variance in the actual data.
+\end{itemize}
 
 An R² value below zero indicates that the model performs worse than simply predicting the average of the actual values for all data points. This suggests that our model underfits the data, failing to capture the relationship between the date and SMS volume.
 
