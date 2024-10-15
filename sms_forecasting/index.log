@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  15 OCT 2024 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  15 OCT 2024 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -567,23 +567,85 @@ File: datetime2-english.ldf 2016/03/09 v1.04 (NLCT)
 File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 )) (/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-en-US.ldf
 File: datetime2-en-US.ldf 2016/03/09 v1.04 (NLCT)
-)) (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.aux)
+)) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+ (/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box45
+)
+\tc@llx=\dimen187
+\tc@lly=\dimen188
+\tc@urx=\dimen189
+\tc@ury=\dimen190
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen191
+\adjbox@Height=\dimen192
+\adjbox@Depth=\dimen193
+\adjbox@Totalheight=\dimen194
+ (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count155
+) (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box46
+\sift@deathcycles=\count156
+\@vwid@loff=\dimen195
+\@vwid@roff=\dimen196
+)) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen197
+\lightrulewidth=\dimen198
+\cmidrulewidth=\dimen199
+\belowrulesep=\dimen256
+\belowbottomsep=\dimen257
+\aboverulesep=\dimen258
+\abovetopsep=\dimen259
+\cmidrulesep=\dimen260
+\cmidrulekern=\dimen261
+\defaultaddspace=\dimen262
+\@cmidla=\count157
+\@cmidlb=\count158
+\@aboverulesep=\dimen263
+\@belowrulesep=\dimen264
+\@thisruleclass=\count159
+\@lastruleclass=\count160
+\@thisrulewidth=\dimen265
+) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen266
+\extrarowheight=\dimen267
+\NC@list=\toks41
+\extratabsurround=\skip65
+\backup@length=\skip66
+)
+\everycr=\toks42
+\minrowclearance=\skip67
+) (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.aux)
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -623,17 +685,17 @@ LaTeX Font Info:    ... okay on input line 68.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
-\scratchdimen=\dimen187
-\scratchbox=\box45
-\nofMPsegments=\count156
-\nofMParguments=\count157
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count158
-\MPscratchDim=\dimen188
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count161
+\scratchdimen=\dimen268
+\scratchbox=\box47
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen269
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -650,43 +712,43 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 68.
+\AtBeginShipoutBox=\box48
+Package hyperref Info: Link coloring OFF on input line 76.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count161
+\c@section@level=\count167
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
-\c@lstlisting=\count162
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
+\c@lstlisting=\count168
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 138.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 146.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 146.
 
 
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 140.
+ on input line 148.
 
 
 Package datetime2 Warning: Region `english' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 140.
+ on input line 148.
 
 <assets/uiu-logo.png, id=7, 251.4996pt x 228.3732pt>
 File: assets/uiu-logo.png Graphic file (type png)
 <use assets/uiu-logo.png>
-Package pdftex.def Info: assets/uiu-logo.png  used on input line 146.
+Package pdftex.def Info: assets/uiu-logo.png  used on input line 154.
 (pdftex.def)             Requested size: 100.37537pt x 91.14554pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -697,7 +759,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/uiu-logo.png>] (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.tocpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 ...11}Cross-Validation}{9}{subsection.2.1.11}
+l.25 ...mental Results and Analysis}{9}{chapter.3}
                                                    [1
 
 ])
@@ -711,14 +773,14 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.220     \item T
+l.228     \item T
                  o identify potential service interruptions during peak peri... [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 
+l.245 
        [2] [3] [4]
 Chapter 2.
 
@@ -730,49 +792,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6] [7]
-<assets/sysdiagram.png, id=120, 529.37775pt x 367.97475pt>
+<assets/sysdiagram.png, id=114, 529.37775pt x 367.97475pt>
 File: assets/sysdiagram.png Graphic file (type png)
 <use assets/sysdiagram.png>
-Package pdftex.def Info: assets/sysdiagram.png  used on input line 428.
-(pdftex.def)             Requested size: 375.80544pt x 261.2246pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/sysdiagram.png>] [10
-
-]
+Package pdftex.def Info: assets/sysdiagram.png  used on input line 436.
+(pdftex.def)             Requested size: 234.8775pt x 163.26256pt.
+ [8 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/sysdiagram.png>]
 Chapter 3.
-<assets/result-predicted-vs-actual-sms-balance.png, id=137, 715.11165pt x 426.393pt>
+<assets/result-predicted-vs-actual-sms-balance.png, id=121, 715.11165pt x 426.393pt>
 File: assets/result-predicted-vs-actual-sms-balance.png Graphic file (type png)
 <use assets/result-predicted-vs-actual-sms-balance.png>
-Package pdftex.def Info: assets/result-predicted-vs-actual-sms-balance.png  used on input line 490.
+Package pdftex.def Info: assets/result-predicted-vs-actual-sms-balance.png  used on input line 494.
 (pdftex.def)             Requested size: 375.80544pt x 224.08089pt.
-[11 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png>] [12]
-Chapter 4.
-[13
+[9
 
-] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
+ </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png>] [10]
+Chapter 4.
+[11
+
+] [12] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
  (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 552.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 583.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 583.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
  ) 
 Here is how much of TeX's memory you used:
- 23386 strings out of 492982
- 436840 string characters out of 6134896
- 520918 words of memory out of 5000000
- 26496 multiletter control sequences out of 15000+600000
- 12563 words of font info for 44 fonts, out of 8000000 for 9000
+ 24036 strings out of 492982
+ 447345 string characters out of 6134896
+ 535659 words of memory out of 5000000
+ 27116 multiletter control sequences out of 15000+600000
+ 12394 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,77p,1050b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.pdf (18 pages, 358185 bytes).
+ 62i,11n,77p,1050b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.pdf (16 pages, 353030 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 

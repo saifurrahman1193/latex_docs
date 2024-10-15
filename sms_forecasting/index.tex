@@ -30,6 +30,14 @@
 %header and footer package
 \usepackage{fancyhdr}
 \usepackage[en-US]{datetime2}
+\usepackage{adjustbox}
+
+
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{colortbl}
+
+
 
 %clearing default page heading and footer
 \pagestyle{fancy}
@@ -425,7 +433,7 @@ Where:
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{assets/sysdiagram.png} 
+		\includegraphics[width=0.5\textwidth]{assets/sysdiagram.png} 
 	\end{center}
 	\caption{System Diagram} % Use caption* to avoid adding it to the list of figures
 	\label{fig:systemdiagram}
@@ -435,17 +443,13 @@ Where:
 
 
 
-\subsection{Training Data}
-We collected the daily operator balance data spanning over the last 6 months (180 days) from the \texttt{ds\_dly\_operator\_balance}  table, which includes the fields: operator ID, available SMS balance (masking and non-masking), date, and day number. Before training, missing balance values were filled with the median balance for each operator, and features were standardized to ensure that each operator's data contributed equally to the model.
+% \subsection{Training Data}
+
+% \subsection{Test Data}
 
 
-\subsection{Test Data}
-For testing, we reserved the most recent data (from the last 7 days) to measure the accuracy of the SMS balance forecast. The test dataset contains unseen operator balances, and we used RMSE to evaluate the prediction accuracy.
-
-
-
-\subsection{Cross-Validation}
-To avoid overfitting and ensure model generalization, we applied 5-fold cross-validation. The dataset was split into 5 equal parts, with each part used as a test set while the remaining data served as the training set. This process was repeated 5 times, and the average RMSE across all folds was used to evaluate model performance.
+% \subsection{Cross-Validation}
+% To avoid overfitting and ensure model generalization, we applied 5-fold cross-validation. The dataset was split into 5 equal parts, with each part used as a test set while the remaining data served as the training set. This process was repeated 5 times, and the average RMSE across all folds was used to evaluate model performance.
 
 % Section 2.2: Training Data
 % https://www.youtube.com/watch?v=vAi6bCTFuAY
@@ -496,6 +500,33 @@ To avoid overfitting and ensure model generalization, we applied 5-fold cross-va
 
 The chart below visualizes the comparison between predicted and actual SMS volumes for Days 15 to 20, along with the error percentage for each day:
 Here is the chart that compares the predicted and actual SMS volumes for Days 15 to 20. The blue line represents the predicted SMS volumes, while the green line represents the actual SMS volumes. This visualization clearly highlights where the predictions were close to the actual values and where they diverged.
+
+
+
+\begin{table}[ht]
+    \centering
+    \caption{Comparison of Predicted and Actual SMS Volumes with Accuracy Percentage}
+    \begin{adjustbox}{max width=\textwidth}
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \rowcolor{lightgray} \textbf{Day No} & \textbf{Predicted SMS Volume} & \textbf{Actual SMS Volume} & \textbf{Error Percentage} & \textbf{\% of Accuracy} \\
+    \hline
+    Day-15 & 96719 & 86970 & 0.112096 & 90\% \\
+    \hline
+    Day-16 & 87303 & 162602 & -0.463088 & 186\% \\
+    \hline
+    Day-17 & 127912 & 155813 & -0.179067 & 122\% \\
+    \hline
+    Day-18 & 149789 & 155048 & -0.033919 & 104\% \\
+    \hline
+    Day-19 & 163796 & 154230 & 0.062024 & 94\% \\
+    \hline
+    Day-20 & 172475 & 154108 & 0.119183 & 89\% \\
+    \hline
+    \end{tabular}
+    \end{adjustbox}
+    \label{tab:comparison}
+\end{table}
 
 
 \chapter{Conclusion and Future Works}
