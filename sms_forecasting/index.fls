@@ -319,6 +319,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png
 INPUT /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png
 INPUT /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 INPUT /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb

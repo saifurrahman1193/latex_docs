@@ -569,6 +569,39 @@ Here is the chart that compares the predicted and actual SMS volumes for Days 15
 \end{table}
 
 
+
+
+
+
+
+
+\subsection{R-squared Analysis}
+
+The performance of our polynomial regression model was evaluated using the R-squared (R²) value, a measure of how well the model explains the variance in the actual data. For our model, we obtained:
+
+\[
+    R^2 = -0.7228
+\]
+
+An R² value below zero indicates that the model performs worse than simply predicting the average of the actual values for all data points. This suggests that our model underfits the data, failing to capture the relationship between the date and SMS volume.
+
+\subsection*{Implications}
+\begin{itemize}
+    \item The model does not adequately represent the trends in the data.
+    \item Adjustments such as increasing the polynomial degree or using regularization techniques may improve performance.
+\end{itemize}
+
+\subsection*{Conclusion}
+The current model requires refinement, as indicated by the negative R-squared value. Further adjustments are necessary to better fit the SMS traffic data. By our understanding if we have 180 days real dataset we could have more accuracy.
+
+
+
+
+
+
+
+
+
 \chapter{Conclusion and Future Works}
 % Section 4.1: Summary of Findings
 
