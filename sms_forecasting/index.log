@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  15 OCT 2024 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2024.9.22)  5 NOV 2024 11:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -726,29 +726,29 @@ LaTeX Info: Redefining \pageref on input line 76.
 LaTeX Info: Redefining \nameref on input line 76.
 \c@lstlisting=\count168
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 159.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 154.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 154.
 
 
 Package datetime2 Warning: Region `english-base' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 161.
+ on input line 156.
 
 
 Package datetime2 Warning: Region `english' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showdayofmonth=false
- on input line 161.
+ on input line 156.
 
 <assets/uiu-logo.png, id=7, 251.4996pt x 228.3732pt>
 File: assets/uiu-logo.png Graphic file (type png)
 <use assets/uiu-logo.png>
-Package pdftex.def Info: assets/uiu-logo.png  used on input line 167.
+Package pdftex.def Info: assets/uiu-logo.png  used on input line 162.
 (pdftex.def)             Requested size: 100.37537pt x 91.14554pt.
 [1
 
@@ -770,14 +770,14 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.241     \item T
+l.236     \item T
                  o identify potential service interruptions during peak peri... [1
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.258 
+l.253 
        [2] [3] [4]
 Chapter 2.
 
@@ -792,7 +792,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <assets/sysdiagram.png, id=122, 529.37775pt x 367.97475pt>
 File: assets/sysdiagram.png Graphic file (type png)
 <use assets/sysdiagram.png>
-Package pdftex.def Info: assets/sysdiagram.png  used on input line 449.
+Package pdftex.def Info: assets/sysdiagram.png  used on input line 444.
 (pdftex.def)             Requested size: 234.8775pt x 163.26256pt.
  [8 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/sysdiagram.png>] [9] [10
 
@@ -801,7 +801,7 @@ Chapter 3.
 <assets/result-predicted-vs-actual-sms-balance.png, id=140, 715.11165pt x 426.393pt>
 File: assets/result-predicted-vs-actual-sms-balance.png Graphic file (type png)
 <use assets/result-predicted-vs-actual-sms-balance.png>
-Package pdftex.def Info: assets/result-predicted-vs-actual-sms-balance.png  used on input line 534.
+Package pdftex.def Info: assets/result-predicted-vs-actual-sms-balance.png  used on input line 529.
 (pdftex.def)             Requested size: 375.80544pt x 224.08089pt.
 [11 </mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/assets/result-predicted-vs-actual-sms-balance.png>] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
@@ -810,12 +810,12 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ]
 Chapter 4.
 [15] [16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 671.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 671.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
  (/mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 671.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 671.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 671.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 666.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 666.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
  ) 
 Here is how much of TeX's memory you used:
  24537 strings out of 492982
@@ -826,7 +826,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,11n,77p,1050b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.pdf (20 pages, 370130 bytes).
+Output written on /mnt/46800fc6-5614-4140-a1ca-16c52fb82f5e/projects/0.Personal/latex_docs/sms_forecasting/index.pdf (20 pages, 368186 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  281 compressed objects within 3 object streams
